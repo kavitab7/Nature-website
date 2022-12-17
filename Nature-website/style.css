@@ -1,0 +1,359 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    display: flex;
+    height: 40px;
+    width: 66px;
+   margin-left: 9px;
+   padding-top: 7px;
+    
+}
+
+.navbar{
+    display: flex;     
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    
+}
+.navlist{
+    width: 50%;
+    display: flex;
+}
+.navbar li{
+  
+    list-style: none;
+    display: flex;
+}
+.navbar li a{
+  text-decoration: none;
+    color: white;
+    margin: 5px 5px;
+    padding: 8px 15px;
+}
+.navbar li a:hover{
+    color: gray;
+    background-color: rgb(24, 21, 21);
+}
+.search{
+   width: 70%;
+   text-align:right ;
+   padding: 13px ;
+}
+#search{
+    border: 3px solid black;
+    border-radius: 6px; 
+    padding: 4px;
+}
+.submit{
+    width: 16px;
+    color: white;
+}
+
+.bg{
+    background: rgb(0, 0, 0,0.7) url('h.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    height: 100vh;
+}
+.first{
+    margin: 34px;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+.big{
+    font-size: 50px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.small{
+    font-family: 'Edu SA Beginner', cursive;
+font-family: 'Saira', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-size: 20px;
+}
+.flower{
+    width: 350px;
+    margin: 38px;
+   border: 9px solid black;
+   border-radius: 249px;
+}
+.btn{cursor: pointer;
+    margin:15px;
+    padding: 9px 21px;
+    color: rgb(247, 241, 241);
+    border-radius: 4px;
+    background-color: black;
+    border: 2px solid rgb(241, 235, 235);
+}
+ 
+.btn:hover{
+  color:black;
+    background-color: rgb(212, 138, 124);
+}
+.bt{
+    cursor: pointer;   
+    color: rgb(240, 233, 233);
+    border-radius: 3px;
+    text-decoration: none;
+    border: 2px solid rgb(241, 235, 235);
+    margin-top: 15px;
+    padding: 9px 21px;
+ 
+   
+}
+.bt:hover{
+    color: black;
+      background-color: rgb(145, 184, 141);
+  }
+  .sp{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 98vh;
+    background-color: rgb(39, 39, 39);
+    color: white;
+  }
+  .sepimg{
+    width: 350px;
+    }
+.box{
+    margin: 18px;
+    padding: 50px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;   
+}
+
+.para{
+    margin-top: 69px;
+}
+.from{
+    height: 80vh;
+    background-image: linear-gradient(to right, rgb(39 39 39 / 97%), #b35454);
+}
+.login{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.sep{
+    margin: 14px;
+    padding: 7px;
+    width: 45%;
+}
+.sub{
+    cursor: pointer;
+    width: 30%;
+     justify-content: center;
+   padding: 8px;
+     align-items: center;
+     margin: 20px;
+}
+.ft{
+    padding: 7px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-size: 12px;
+}
+h2{
+    margin: 5px;
+    padding-top: 15px;
+    font-family: 'Titillium Web', sans-ser
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+.main{
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 15px;
+    cursor: pointer;
+    
+}
+@media only screen and (max-width:1140px)
+  {
+    .sp{
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+}
+@media only screen and (max-width:800px)
+  {
+    .sp{
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+    .big{
+        font-size: 35px;
+    }
+    .small{
+        font-size:18px;
+    }
+    .flower{
+        width: 327px;
+    }
+    .sepimg{
+        width: 317px;
+    }
+    .box{
+        font-size: 17px;
+    }
+    .first {
+        margin: 16px;
+    }
+    .navbar li a{
+        margin: 8px 3px;
+     padding: 8px 8px;
+    }
+
+
+}
+@media only screen and (max-width:700px)
+  {
+    .box{
+        width: 50%;
+    }
+    .sp{
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+    .big{
+        font-size: 35px;
+    }
+    .small{
+        font-size:18px;
+    }
+    .flower{
+        width: 227px;
+    }
+    .sepimg{
+        width: 250px;
+    }
+    .box{
+        font-size: 17px;
+    }
+    .first {
+        margin: 16px;
+    }
+    .navbar li a{
+        margin: 8px 3px;
+     padding: 8px 8px;
+    }
+
+    .navlist{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .logo{
+        width: min-content;
+
+    }
+    .navbar{
+        height: 420px;
+        flex-direction: column;
+        transition: all 0.7s ease-in-out;
+    }
+    .search{ 
+        text-align: center;
+    }
+    #search{
+        width: 45%;
+    }
+    .main{
+        display: block;
+    }
+    .op{
+        opacity: 0;
+    }
+    .nav-h{
+        
+        height: 65px;
+    }
+
+
+}
+@media only screen and (max-width:600px)
+{  
+    .sep{
+        margin: 9px;
+        width: 60%;
+    }
+    .sub{
+        margin: 8px;
+    }
+    .ft{
+        font-size: 10px;
+    }
+    .box{
+        width: 80%;
+        padding: 7px;
+    }
+    .para {
+        margin-top: 20px;
+    }
+    .sepimg{
+        width: 199px;
+    }
+    .flower{
+        margin: 3px;
+    border: 5px solid black;
+        width: 157px;
+    }
+    .first {
+        margin: 7px;
+    }
+    .big {
+        font-size: 25px;
+        padding: 6px;
+    }
+    .small {
+        font-size: 12px;
+        margin: 8px;
+    }
+    .like{
+        font-size: 12px;
+        margin: 0px;
+        padding: 2px 8px;
+    }
+    .content{
+        height: 90vh;
+
+    }
+    .sep {
+        margin: 6px;
+        padding: 3px;
+    }
+    .sub{
+        padding: 5px;
+        margin: 1px;
+    }
+}
